@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "stream-adventure": "^4.3.2"
+    "split2": "^4.2.0",
+    "stream-adventure": "^4.3.2",
+    "through2": "^4.0.2"
   }
 }
