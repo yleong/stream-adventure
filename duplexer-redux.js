@@ -24,7 +24,5 @@ module.exports = function (counter) {
         counter.setCounts(occurrences)
     });
 
-    process.stdin.pipe(myWritableStream);
-
     return duplexer2({objectMode: true}, myWritableStream, counter)
 }
